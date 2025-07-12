@@ -106,32 +106,36 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Contact Form Handling
+    // AJAX Formspree Submission
     const contactForm = document.getElementById('contactForm');
-    
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const formObject = {};
-        
-        formData.forEach((value, key) => {
-            formObject[key] = value;
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(contactForm);
+            const formMessage = document.querySelector('.form-message');
+            fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            })
+            .then(response => {
+                if (response.ok) {
+                    formMessage.textContent = 'Thank you for your message! We will contact you soon.';
+                    formMessage.className = 'form-message success';
+                    contactForm.reset();
+                } else {
+                    response.json().then(data => {
+                        formMessage.textContent = data.error || 'Oops! There was a problem submitting your form.';
+                        formMessage.className = 'form-message error';
+                    });
+                }
+            })
+            .catch(() => {
+                formMessage.textContent = 'Oops! There was a problem submitting your form.';
+                formMessage.className = 'form-message error';
+            });
         });
-
-        // Validate form
-        if (validateForm(formObject)) {
-            // Show success message
-            showMessage('Thank you for your message! We will contact you soon.', 'success');
-            
-            // Reset form
-            contactForm.reset();
-            
-            // In a real application, you would send the data to a server here
-            console.log('Form submitted:', formObject);
-        }
-    });
+    }
 
     // Form validation function
     function validateForm(data) {
