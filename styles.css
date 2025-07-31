@@ -367,6 +367,71 @@ h2 {
     color: #333;
 }
 
+/* Pricing Table Styles */
+.pricing-table-container {
+    margin: 2rem 0;
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 0.9rem;
+}
+
+.pricing-table th {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: white;
+    padding: 1rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #00d4aa;
+}
+
+.pricing-table th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.pricing-table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.pricing-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.pricing-table tr:hover {
+    background-color: #e3f2fd;
+}
+
+.pricing-table td:first-child {
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+}
+
+.pricing-table td:nth-child(2) {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.pricing-table td:nth-child(5) {
+    font-weight: 600;
+    color: #00d4aa;
+    text-align: right;
+}
+
+
+
 /* About Section */
 .about {
     background: #f8f9fa;
@@ -654,6 +719,15 @@ h2 {
         margin-top: 30px;
     }
     
+    .pricing-table {
+        font-size: 0.8rem;
+    }
+    
+    .pricing-table th,
+    .pricing-table td {
+        padding: 0.5rem 0.4rem;
+    }
+    
     .about-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -699,6 +773,15 @@ h2 {
     
     .contact-form {
         padding: 1.5rem;
+    }
+    
+    .pricing-table {
+        font-size: 0.7rem;
+    }
+    
+    .pricing-table th,
+    .pricing-table td {
+        padding: 0.3rem 0.2rem;
     }
 }
 
