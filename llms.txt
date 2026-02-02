@@ -1,0 +1,118 @@
+# Service 24 BDD - Professional Truck ECU Repair
+
+> Service 24 BDD is a professional truck ECU repair and diagnostic service provider based in Romania, serving all of Europe with 24/7 availability.
+
+## About Us
+
+Service 24 BDD specializes in Electronic Control Unit (ECU) repair for commercial trucks and heavy vehicles. We repair ECUs, we do NOT sell engines or vehicle parts. All repairs come with a 24-36 month warranty.
+
+## Services Offered
+
+- **ECU Repair & Programming**: Professional repair for 80+ ECU models across all major truck brands
+- **Truck Diagnostics**: Advanced diagnostic tools for electrical system troubleshooting
+- **ECU Installation**: Professional removal and installation by certified technicians
+- **AdBlue System Repair**: SCR systems, NOX sensors, AdBlue pumps, ACM/EEC modules
+- **DPF Cleaning/Replacement**: Diesel Particulate Filter maintenance
+- **EBS Repair**: Electronic Braking System module repair
+- **Key Programming**: Immobilizer and key services (Mercedes FSB keys)
+- **Mobile Service**: On-site repairs throughout Romania and Europe
+
+## Truck Brands We Service
+
+- Mercedes-Benz (Actros, Atego, Axor, Arocs)
+- Scania (R-series, S-series, P-series, G-series)
+- Volvo (FH, FM, FMX, FE)
+- DAF (XF, CF, LF)
+- MAN (TGX, TGS, TGM, TGL)
+- Iveco (Stralis, Eurocargo, S-Way)
+
+## ECU Types We Repair
+
+### Mercedes
+- ACM2/ACM2.1 (Aftertreatment Control Module)
+- MCM2/MCM2.1 (Motor Control Module)
+- CPC/CPC3/CPC4 (Central Processing Computer)
+- EIS (Electronic Ignition Switch)
+- GS2/TCM (Gearbox Control)
+- ICUC (Display Unit)
+
+### Scania
+- COO6/COO7/COO8 (Coordinator)
+- EEC3 (AdBlue Control)
+- EMS S6/S7/S8 (Engine Management)
+- OPC4/OPC5 (Gearbox Opticruise)
+
+### MAN
+- ZBR2 (Central Electrical System)
+- FFR/PTM (Central Control Units)
+- EDC7/EDC17/Md1CE100 (Engine Control)
+- GS3/GS3.3 (Gearbox Control)
+
+### DAF
+- VIC3/VECU (Vehicle Control)
+- PCI (Engine Control)
+- BBM (Power Take-Off)
+- Traxon/GS3.3 (Gearbox Control)
+
+### Volvo
+- EMS2/2.2/2.3 (Engine Management)
+- Gearbox ECU
+
+### Iveco
+- VCM2/VCM3 (Vehicle Control Module)
+- EDC7/EDC17 (Engine Control)
+
+## Pricing (RON, includes VAT)
+
+Prices range from 800 RON to 5000 RON depending on ECU type:
+- Simple modules (relays, sensors): 800-1500 RON
+- Central/Gearbox ECUs: 2000-2500 RON
+- Engine ECUs: 2500-5000 RON
+- Mobile service: 5 RON/km
+- Electrical labor: 300 RON/hour
+
+## Contact Information
+
+- **Phone**: +40 759 778 777 (24/7)
+- **Email**: service24@bddlogspeed.ro
+- **WhatsApp**: +40 759 778 777
+- **Website**: https://service24bdd.netlify.app/
+- **Google Maps**: https://maps.app.goo.gl/EQamg9Ua8wzAmDEe9
+- **Facebook**: https://www.facebook.com/profile.php?id=61574497204987
+- **TikTok**: https://www.tiktok.com/@service.24.bdd
+
+## Location
+
+- **Address**: Arad, Arad County, Romania
+- **Coordinates**: 46.2005861, 21.2577161
+
+## Service Area
+
+- Primary: Arad and Western Romania (immediate mobile service)
+- Secondary: All of Romania (nationwide mobile service)
+- Tertiary: All European Union countries
+- Shipping: Worldwide ECU shipping available
+
+## Business Hours
+
+24/7 Emergency Service Available
+
+## Languages
+
+- Romanian (native)
+- English
+- German
+- Polish
+
+## Warranty
+
+All ECU repairs include 24-36 month warranty covering:
+- Repaired components
+- Workmanship
+- Technical support
+
+## Legal
+
+- All prices include TVA (Romanian VAT)
+- Registered business in Romania
+- Professional invoicing available

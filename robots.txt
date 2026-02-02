@@ -46,5 +46,9 @@ Disallow: /
 # Sitemap location
 Sitemap: https://service24bdd.netlify.app/sitemap.xml
 
+# LLMs.txt for AI assistants
+# https://llmstxt.org/
+Allow: /llms.txt
+
 # Host directive
 Host: https://service24bdd.netlify.app
