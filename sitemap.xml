@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://service24bdd.netlify.app/</loc>
+        <lastmod>2026-02-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://service24bdd.netlify.app/share.png</image:loc>
+            <image:title>Service 24 BDD - Professional Truck ECU Repair</image:title>
+            <image:caption>Professional ECU repair services for Mercedes, Scania, Volvo, DAF, MAN, Iveco trucks</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://service24bdd.netlify.app/logo.svg</image:loc>
+            <image:title>Service 24 BDD Logo</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Services Section -->
+    <url>
+        <loc>https://service24bdd.netlify.app/#services</loc>
+        <lastmod>2026-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Pricing Section -->
+    <url>
+        <loc>https://service24bdd.netlify.app/#pricing</loc>
+        <lastmod>2026-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://service24bdd.netlify.app/prices.png</image:loc>
+            <image:title>Service 24 BDD ECU Repair Price List</image:title>
+            <image:caption>Complete pricing for truck ECU repair services - Mercedes, Scania, Volvo, DAF, MAN, Iveco</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- About Section -->
+    <url>
+        <loc>https://service24bdd.netlify.app/#about</loc>
+        <lastmod>2026-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Contact Section -->
+    <url>
+        <loc>https://service24bdd.netlify.app/#contact</loc>
+        <lastmod>2026-02-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+</urlset>

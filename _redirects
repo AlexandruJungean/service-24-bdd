@@ -1,0 +1,42 @@
+# Netlify Redirects Configuration for Service 24 BDD
+
+# Force HTTPS (Netlify does this by default, but explicit is good)
+http://service24bdd.netlify.app/* https://service24bdd.netlify.app/:splat 301!
+
+# Handle trailing slashes consistently
+/index.html / 301
+
+# Common typos and alternate URLs
+/home / 301
+/home/ / 301
+/servicii /#services 301
+/preturi /#pricing 301
+/despre /#about 301
+/contact /#contact 301
+/contacteaza-ne /#contact 301
+/pret /#pricing 301
+/lista-preturi /#pricing 301
+
+# Service-specific redirects for SEO
+/ecu-repair /#services 301
+/ecu-repair/ /#services 301
+/diagnostics /#services 301
+/adblue /#services 301
+/dpf /#services 301
+/dpf-cleaning /#services 301
+
+# Brand-specific redirects
+/mercedes /#pricing 301
+/scania /#pricing 301
+/volvo /#pricing 301
+/daf /#pricing 301
+/man /#pricing 301
+/iveco /#pricing 301
+
+# Romanian language redirects
+/reparatii-ecu /#services 301
+/reparatii-camioane /#services 301
+/service-camioane / 301
+
+# SPA fallback - serve index.html for any unmatched route
+/* /index.html 200
