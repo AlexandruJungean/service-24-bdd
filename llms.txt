@@ -1,23 +1,47 @@
-# Service 24 BDD - Professional Truck ECU Repair
+# Truck Service 24 BDD - Service Mobil Camioane & Remorci
 
-> Service 24 BDD is a professional truck ECU repair and diagnostic service provider based in Romania, serving all of Europe with 24/7 availability.
+> Truck Service 24 BDD este un service mobil profesional pentru camioane și remorci, cu sediul în Arad, România. Oferim intervenții pe drum 24/7, vulcanizare mobilă, reparații ECU, diagnosticare avansată și service complet pentru toate mărcile de camioane și remorci, cu acoperire în toată România și Europa.
 
-## About Us
+## Despre Noi
 
-Service 24 BDD specializes in Electronic Control Unit (ECU) repair for commercial trucks and heavy vehicles. We repair ECUs, we do NOT sell engines or vehicle parts. All repairs come with a 24-36 month warranty.
+Truck Service 24 BDD (cunoscut și ca "Truck Service 24 Bdd - Service Mobil Camioane Arad") oferă o gamă completă de servicii mobile pentru camioane și remorci. Suntem deschis nonstop 24/7, inclusiv sărbători. Mașina noastră de intervenție este complet echipată cu scule profesionale pentru orice tip de reparație pe drum.
 
-## Services Offered
+## Servicii Oferite
 
-- **ECU Repair & Programming**: Professional repair for 80+ ECU models across all major truck brands
-- **Truck Diagnostics**: Advanced diagnostic tools for electrical system troubleshooting
-- **ECU Installation**: Professional removal and installation by certified technicians
-- **AdBlue System Repair**: SCR systems, NOX sensors, AdBlue pumps, ACM/EEC modules
-- **DPF Cleaning/Replacement**: Diesel Particulate Filter maintenance
-- **EBS Repair**: Electronic Braking System module repair
-- **Key Programming**: Immobilizer and key services (Mercedes FSB keys)
-- **Mobile Service**: On-site repairs throughout Romania and Europe
+### Intervenții pe Drum
+- **Intervenții pe drum 24/7**: Reparații mecanice și electrice de urgență la fața locului
+- **Asistență rutieră camioane**: Depanare și asistență oriunde în România și Europa
+- **Intervenții de urgență**: Disponibili nonstop pentru orice situație
 
-## Truck Brands We Service
+### Vulcanizare Mobilă
+- **Vulcanizare mobilă camioane**: Schimb anvelope, reparații pneuri la fața locului
+- **Vulcanizare TIR**: Echipament profesional complet pentru toate tipurile de anvelope
+- **Echilibrare roți**: Servicii complete de echilibrare la fața locului
+
+### Reparații ECU & Programare
+- **Reparații ECU profesionale**: Peste 80 de modele ECU reparate
+- **Programare ECU**: Programare și imperechere module electronice
+- **Diagnosticare ECU**: Diagnosticare avansată pentru toate mărcile
+- **Garanție 24-36 luni** pe toate reparațiile ECU
+
+### Service Remorci
+- **Reparații frâne remorci**: Sistem de frânare, EBS, discuri, plăcuțe
+- **Reparații suspensie**: Perne aer, amortizoare, arcuri
+- **Electrică remorci**: Cablaje, conectori, lumini, semnalizare
+- **Sistem pneumatic**: Valve, conducte, compresoare
+
+### AdBlue & DPF
+- **Reparații sistem AdBlue**: Senzori NOX, pompe AdBlue, module SCR
+- **Curățare/Înlocuire DPF**: Filtru de particule diesel
+- **Reparații EBS**: Module frânare electronică
+
+### Reparații Mecanice & Electrice
+- **Reparații motor**: Diagnosticare și reparații motor camion
+- **Reparații cutie viteze**: Probleme cutie manuală/automată
+- **Reparații electrice**: Cablaje, conectori, senzori, module
+- **Manoperă electrică**: 300 RON/oră
+
+## Mărci de Camioane Deservite
 
 - Mercedes-Benz (Actros, Atego, Axor, Arocs)
 - Scania (R-series, S-series, P-series, G-series)
@@ -26,54 +50,58 @@ Service 24 BDD specializes in Electronic Control Unit (ECU) repair for commercia
 - MAN (TGX, TGS, TGM, TGL)
 - Iveco (Stralis, Eurocargo, S-Way)
 
-## ECU Types We Repair
+## Tipuri ECU Reparate
 
 ### Mercedes
-- ACM2/ACM2.1 (Aftertreatment Control Module)
-- MCM2/MCM2.1 (Motor Control Module)
-- CPC/CPC3/CPC4 (Central Processing Computer)
-- EIS (Electronic Ignition Switch)
-- GS2/TCM (Gearbox Control)
-- ICUC (Display Unit)
+- ACM2/ACM2.1 (Modul Control Purificare Gaze)
+- MCM2/MCM2.1 (Modul Control Motor)
+- CPC/CPC3/CPC4 (Computer Central)
+- EIS (Contact Electronic)
+- GS2/TCM (Control Cutie Viteze)
+- ICUC (Display)
 
 ### Scania
 - COO6/COO7/COO8 (Coordinator)
-- EEC3 (AdBlue Control)
-- EMS S6/S7/S8 (Engine Management)
-- OPC4/OPC5 (Gearbox Opticruise)
+- EEC3 (Control AdBlue)
+- EMS S6/S7/S8 (Management Motor)
+- OPC4/OPC5 (Cutie Opticruise)
 
 ### MAN
-- ZBR2 (Central Electrical System)
-- FFR/PTM (Central Control Units)
-- EDC7/EDC17/Md1CE100 (Engine Control)
-- GS3/GS3.3 (Gearbox Control)
+- ZBR2 (Sistem Electric Central)
+- FFR/PTM (Unități Control Central)
+- EDC7/EDC17/Md1CE100 (Control Motor)
+- GS3/GS3.3 (Control Cutie)
 
 ### DAF
-- VIC3/VECU (Vehicle Control)
-- PCI (Engine Control)
-- BBM (Power Take-Off)
-- Traxon/GS3.3 (Gearbox Control)
+- VIC3/VECU (Control Vehicul)
+- PCI (Control Motor)
+- BBM (Priză Putere)
+- Traxon/GS3.3 (Control Cutie)
 
 ### Volvo
-- EMS2/2.2/2.3 (Engine Management)
-- Gearbox ECU
+- EMS2/2.2/2.3 (Management Motor)
+- ECU Cutie Viteze
 
 ### Iveco
-- VCM2/VCM3 (Vehicle Control Module)
-- EDC7/EDC17 (Engine Control)
+- VCM2/VCM3 (Modul Control Vehicul)
+- EDC7/EDC17 (Control Motor)
 
-## Pricing (RON, includes VAT)
+## Prețuri (RON, include TVA)
 
-Prices range from 800 RON to 5000 RON depending on ECU type:
-- Simple modules (relays, sensors): 800-1500 RON
-- Central/Gearbox ECUs: 2000-2500 RON
-- Engine ECUs: 2500-5000 RON
-- Mobile service: 5 RON/km
-- Electrical labor: 300 RON/hour
+### Reparații ECU
+- Module simple (relee, senzori): 800-1500 RON
+- ECU-uri centrale/cutie: 2000-2500 RON
+- ECU-uri motor: 2500-5000 RON
 
-## Contact Information
+### Servicii Mobile
+- Deplasare: 5 RON/km (România și Europa)
+- Manoperă electrică: 300 RON/oră
+- Vulcanizare mobilă: contactați pentru preț
+- Intervenții pe drum: contactați pentru preț
 
-- **Phone**: +40 759 778 777 (24/7)
+## Informații Contact
+
+- **Telefon**: +40 759 778 777 (24/7 Nonstop)
 - **Email**: service24@bddlogspeed.ro
 - **WhatsApp**: +40 759 778 777
 - **Website**: https://service24bdd.netlify.app/
@@ -81,38 +109,38 @@ Prices range from 800 RON to 5000 RON depending on ECU type:
 - **Facebook**: https://www.facebook.com/profile.php?id=61574497204987
 - **TikTok**: https://www.tiktok.com/@service.24.bdd
 
-## Location
+## Locație
 
-- **Address**: Arad, Arad County, Romania
-- **Coordinates**: 46.2005861, 21.2577161
+- **Adresă**: Arad, Județul Arad, România
+- **Coordonate**: 46.2005861, 21.2577161
 
-## Service Area
+## Zonă de Acoperire
 
-- Primary: Arad and Western Romania (immediate mobile service)
-- Secondary: All of Romania (nationwide mobile service)
-- Tertiary: All European Union countries
-- Shipping: Worldwide ECU shipping available
+- **Primară**: Arad și vestul României (service mobil imediat)
+- **Secundară**: Toată România (service mobil național)
+- **Terțiară**: Toate țările din Uniunea Europeană
+- **Expediție ECU**: Livrare mondială disponibilă
 
-## Business Hours
+## Program de Lucru
 
-24/7 Emergency Service Available
+Deschis Nonstop 24/7, inclusiv sărbători și weekend
 
-## Languages
+## Limbi Vorbite
 
-- Romanian (native)
-- English
-- German
-- Polish
+- Română (nativă)
+- Engleză
+- Germană
+- Spaniolă
 
-## Warranty
+## Garanție
 
-All ECU repairs include 24-36 month warranty covering:
-- Repaired components
-- Workmanship
-- Technical support
+Toate reparațiile ECU includ garanție 24-36 luni:
+- Componente reparate
+- Manoperă
+- Suport tehnic
 
 ## Legal
 
-- All prices include TVA (Romanian VAT)
-- Registered business in Romania
-- Professional invoicing available
+- Toate prețurile includ TVA
+- Firmă înregistrată în România
+- Facturare profesională disponibilă

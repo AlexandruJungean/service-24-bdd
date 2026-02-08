@@ -654,6 +654,86 @@ h2 {
     color: #ccc;
 }
 
+/* Language Switcher */
+.lang-switcher {
+    position: relative;
+    margin-left: 1.5rem;
+}
+
+.lang-current {
+    background: transparent;
+    border: 1px solid #00d4aa;
+    color: #00d4aa;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+.lang-current:hover {
+    background: #00d4aa;
+    color: #1a1a1a;
+}
+
+.lang-current i {
+    font-size: 0.65rem;
+    transition: transform 0.3s ease;
+}
+
+.lang-switcher:hover .lang-current i {
+    transform: rotate(180deg);
+}
+
+.lang-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: #2d2d2d;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    overflow: hidden;
+    min-width: 130px;
+    z-index: 1001;
+    border: 1px solid #444;
+}
+
+.lang-switcher:hover .lang-dropdown {
+    display: block;
+}
+
+.lang-dropdown a {
+    display: block;
+    padding: 10px 16px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.lang-dropdown a:last-child {
+    border-bottom: none;
+}
+
+.lang-dropdown a:hover {
+    background: #00d4aa;
+    color: #1a1a1a;
+}
+
+.lang-dropdown a.active {
+    background: rgba(0, 212, 170, 0.15);
+    color: #00d4aa;
+    font-weight: 600;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
@@ -753,6 +833,14 @@ h2 {
     
     .social-links {
         justify-content: center;
+    }
+    
+    .lang-switcher {
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 0;
     }
 }
 

@@ -120,18 +120,18 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => {
                 if (response.ok) {
-                    formMessage.textContent = 'Thank you for your message! We will contact you soon.';
+                    formMessage.textContent = 'Mulțumim pentru mesaj! Te vom contacta în curând.';
                     formMessage.className = 'form-message success';
                     contactForm.reset();
                 } else {
                     response.json().then(data => {
-                        formMessage.textContent = data.error || 'Oops! There was a problem submitting your form.';
+                        formMessage.textContent = data.error || 'Ups! A apărut o problemă la trimiterea formularului.';
                         formMessage.className = 'form-message error';
                     });
                 }
             })
             .catch(() => {
-                formMessage.textContent = 'Oops! There was a problem submitting your form.';
+                formMessage.textContent = 'Ups! A apărut o problemă la trimiterea formularului.';
                 formMessage.className = 'form-message error';
             });
         });
@@ -142,19 +142,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const errors = [];
         
         if (!data.name || data.name.trim().length < 2) {
-            errors.push('Please enter a valid name');
+            errors.push('Te rugăm să introduci un nume valid');
         }
         
         if (!data.email || !isValidEmail(data.email)) {
-            errors.push('Please enter a valid email address');
+            errors.push('Te rugăm să introduci o adresă de email validă');
         }
         
         if (!data.service) {
-            errors.push('Please select a service');
+            errors.push('Te rugăm să selectezi un serviciu');
         }
         
         if (!data.message || data.message.trim().length < 10) {
-            errors.push('Please enter a message with at least 10 characters');
+            errors.push('Te rugăm să introduci un mesaj de cel puțin 10 caractere');
         }
         
         if (errors.length > 0) {
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // WhatsApp click handler
 function openWhatsApp() {
     const phoneNumber = '40759778777';
-    const message = 'Hello, I would like to inquire about your ECU repair services.';
+    const message = 'Bună, aș dori informații despre serviciile de truck service.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
 }
@@ -475,9 +475,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const structuredData = {
         "@context": "https://schema.org",
         "@type": "AutoRepair",
-        "name": "Service 24 BDD",
-        "description": "Professional truck ECU repair and diagnostic services",
-        "url": "https://service24bdd.com",
+        "name": "Truck Service 24 BDD",
+        "description": "Service mobil camioane și remorci, intervenții pe drum, vulcanizare mobilă, reparații ECU",
+        "url": "https://service24bdd.netlify.app",
         "telephone": "+40759778777",
         "email": "service24@bddlogspeed.ro",
         "address": {
