@@ -81,16 +81,18 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="lang-switcher">
-                    <button class="lang-current">EN <i class="fas fa-chevron-down"></i></button>
+                    <button class="lang-current" onclick="this.parentElement.classList.toggle('open')">EN <i class="fas fa-chevron-down"></i></button>
                     <div class="lang-dropdown">
-                        <a href="/">RO - Română</a>
-                        <a href="/en/" class="active">EN - English</a>
-                        <a href="/de/">DE - Deutsch</a>
-                        <a href="/es/">ES - Español</a>
-                        <a href="/pl/">PL - Polski</a>
-                        <a href="/hr/">HR - Hrvatski</a>
-                        <a href="/bg/">BG - Български</a>
-                        <a href="/hu/">HU - Magyar</a>
+                        <div class="lang-dropdown-inner">
+                            <a href="/">RO - Română</a>
+                            <a href="/en/" class="active">EN - English</a>
+                            <a href="/de/">DE - Deutsch</a>
+                            <a href="/es/">ES - Español</a>
+                            <a href="/pl/">PL - Polski</a>
+                            <a href="/hr/">HR - Hrvatski</a>
+                            <a href="/bg/">BG - Български</a>
+                            <a href="/hu/">HU - Magyar</a>
+                        </div>
                     </div>
                 </div>
                 <div class="hamburger"><span></span><span></span><span></span></div>

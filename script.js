@@ -459,6 +459,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Language switcher - close on click outside
+document.addEventListener('click', function(e) {
+    var switchers = document.querySelectorAll('.lang-switcher');
+    switchers.forEach(function(switcher) {
+        if (!switcher.contains(e.target)) {
+            switcher.classList.remove('open');
+        }
+    });
+});
+
 // SEO and Performance optimizations
 document.addEventListener('DOMContentLoaded', function() {
     // Preload critical resources

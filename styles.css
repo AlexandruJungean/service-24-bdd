@@ -686,25 +686,31 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.lang-switcher:hover .lang-current i {
+.lang-switcher:hover .lang-current i,
+.lang-switcher.open .lang-current i {
     transform: rotate(180deg);
 }
 
 .lang-dropdown {
     display: none;
     position: absolute;
-    top: calc(100% + 6px);
+    top: 100%;
     right: 0;
+    padding-top: 4px;
+    z-index: 1001;
+}
+
+.lang-dropdown-inner {
     background: #2d2d2d;
     border-radius: 8px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
     overflow: hidden;
-    min-width: 130px;
-    z-index: 1001;
+    min-width: 150px;
     border: 1px solid #444;
 }
 
-.lang-switcher:hover .lang-dropdown {
+.lang-switcher:hover .lang-dropdown,
+.lang-switcher.open .lang-dropdown {
     display: block;
 }
 
