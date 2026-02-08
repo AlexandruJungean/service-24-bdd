@@ -54,4 +54,4 @@
 /index.html
   Link: </styles.css>; rel=preload; as=style
   Link: </script.js>; rel=preload; as=script
-  Link: </logo.svg>; rel=preload; as=image
+  Link: </logo.webp>; rel=preload; as=image

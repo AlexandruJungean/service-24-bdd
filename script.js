@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // SEO and Performance optimizations
 document.addEventListener('DOMContentLoaded', function() {
     // Preload critical resources
-    const criticalImages = ['logo.svg'];
+    const criticalImages = ['logo.webp'];
     criticalImages.forEach(src => {
         const link = document.createElement('link');
         link.rel = 'preload';

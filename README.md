@@ -19,7 +19,7 @@ website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles
 ├── script.js           # JavaScript functionality
-├── logo.svg            # Company logo (SVG format)
+├── logo.webp            # Company logo (SVG format)
 ├── favicon.ico         # Favicon (32x32 ICO format)
 ├── prices.png          # Pricing menu image (displayed in About section)
 └── README.md           # This file
@@ -28,7 +28,7 @@ website/
 ## 🛠️ Setup Instructions
 
 1. **Add Logo Image**
-   - Save your logo image as `logo.svg` in the website directory
+   - Save your logo image as `logo.webp` in the website directory
    - The logo should be in SVG format for best scalability and quality
    - SVG format ensures crisp display at all sizes
 
