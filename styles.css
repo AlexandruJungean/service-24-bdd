@@ -654,6 +654,23 @@ h2 {
     color: #ccc;
 }
 
+.footer-credit {
+    font-size: 0.75rem;
+    color: rgba(204, 204, 204, 0.7);
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.footer-credit-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-credit-link:hover {
+    color: #fff;
+}
+
 /* Language Switcher */
 .lang-switcher {
     position: relative;

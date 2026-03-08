@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Footer current year
+    const footerYearEl = document.getElementById('footerYear');
+    if (footerYearEl) {
+        footerYearEl.textContent = new Date().getFullYear();
+    }
+
     // Device Detection
     function isMobileDevice() {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
